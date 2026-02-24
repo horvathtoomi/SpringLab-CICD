@@ -9,7 +9,7 @@ public class Main {
 
     public static final String DATA_URL = "https://raw.githubusercontent.com/bnokoro/Data-Science/refs/heads/master/countries%20of%20the%20world.csv";
 
-
+    .
     static void main() throws Exception{
         String csvData;
         try(var client = HttpClient.newHttpClient()) {
